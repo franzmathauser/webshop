@@ -1,0 +1,27 @@
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Web Shop</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/default.css" title="default"/>
+</head>
+<body>
+<div id="WholePage">
+  <div id="Inner">
+    <div id="Container">
+      <div id="Head">
+        <div id="Head_left">
+          <div id="Leaf_top"></div>
+          <div id="Leaf_bottom"> <a class="registration" href="http://www.free-css.com/">REGISTRATION</a> <a class="log-in" href="http://www.free-css.com/">LOG IN</a> </div>
+        </div>
+        <div id="Head_right">
+          <div id="Logo">
+            <div id="Name"><span class="blue">B</span><span>io is the new</span>&nbsp;<span class="blue">F</span><span>ast Food</span> </div>
+            <div id="Informations">The healthy shop to a better life.</div>
+          </div>
+          <div id="Top_menu"> <a class="kart" href="viewCart"><span>CART</span></a> <a class="orders" href="http://www.free-css.com/"><span>ORDERS</span></a> <a class="contact" href="http://www.free-css.com/"><span>CONTACT</span></a> <a class="help" href="http://www.free-css.com/"><span>HELP</span></a> <a class="home" href="/WebShop"><span>HOME</span></a> </div>
+        </div>
+      </div>
